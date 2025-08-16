@@ -1,0 +1,16 @@
+package Day6;
+
+public class Witharugument {
+
+    String name = "Elavarasan";  
+
+    public String display() {
+        return "Name is: " + name;
+    }
+
+    public static void main(String[] args) {
+        Witharugument obj = new Witharugument();
+        String res = obj.display();
+        System.out.println(res);
+    }
+}
