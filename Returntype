@@ -1,0 +1,15 @@
+package Day6;
+import java.lang.*;
+
+public class Returntype {
+	public void Display()
+	{
+		
+		System.out.println("Hi Nice To Meet You");
+		
+	}
+   public static void main(String[]args) {
+	   Returntype obj=new Returntype();
+	   obj.Display();
+   }
+}
